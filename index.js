@@ -14,6 +14,7 @@ async function installServerlessAndPlugins() {
     `echo Installing Serverless and plugins...`,
     `npm i chalk@4.1.2`,
     `npm i serverless@3.35.2 -g`,
+    `npm i --save-dev serverless`,
     `npm i serverless-plugin-canary-deployments`,
     `npm i serverless-python-requirements`,
     `serverless plugin install -n serverless-apigateway-service-proxy`
