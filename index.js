@@ -12,7 +12,7 @@ var DOMAIN_MANAGER = core.getInput('domain-manager')
 async function installServerlessAndPlugins() {
   await exeq(
     `echo Installing Serverless and plugins...`,
-    `npm i chalk --save`,
+    `npm i chalk@4.1.2`,
     `npm i serverless@3.35.2 -g`,
     `npm i serverless-plugin-canary-deployments`,
     `npm i serverless-python-requirements`,
