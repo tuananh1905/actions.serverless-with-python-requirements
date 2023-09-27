@@ -16,7 +16,7 @@ async function installServerlessAndPlugins() {
     `npm i serverless@3.35.2 -g`,
     `npm i serverless-plugin-canary-deployments`,
     `npm i serverless-python-requirements`,
-    `npm i serverless-apigateway-service-proxy@2.2.1`
+    `serverless plugin install -n serverless-apigateway-service-proxy`
   )
 }
 
